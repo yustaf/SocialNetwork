@@ -3,8 +3,8 @@ using SocialNetwork.Domain.Entities;
 
 namespace SocialNetwork.Domain.Abstract
 {
-    public interface IProfileRepository
+    public interface IAuthorizationRepository
     {
-        IEnumerable<Profile> Profiles { get; }
+        IEnumerable<Authorization> Authorizations { get; }
     }
 }
