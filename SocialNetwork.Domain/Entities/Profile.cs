@@ -4,7 +4,7 @@ namespace SocialNetwork.Domain
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
-    using System.Data.Entity.Spatial;
+    using System.Data.Entity;
 
     [Table("Profile")]
     public partial class Profile
